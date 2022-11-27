@@ -1,0 +1,38 @@
+*
+{
+    padding:0;
+    margin: 0;
+}
+body
+{
+    background-attachment: fixed;
+    background: pink;
+    background-size:cover;
+    background-position: center;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+.menu-bar
+{
+    background: rgb(40, 39, 39) ;
+}
+.menu-bar ul{
+    display:inline-flex;
+    list-style:none;
+    color:black;
+}
+.menu-bar ul li{
+    width: 130px;
+    margin:15px;
+    padding:15px;
+}
+.menu-bar ul li a{
+    font size: 21px;
+    text-decoration:none;
+    color:white;
+}
+.active, .menu-bar ul li:hover {
+    
+    border-radius: 3px;
+    background-color: black;
+}
